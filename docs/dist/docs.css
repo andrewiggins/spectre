@@ -51,13 +51,13 @@
   margin-bottom: .75rem;
 }
 .docs-sidebar .accordion input ~ .accordion-header {
-  color: #455060;
+  color: white;
   font-size: .65rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 .docs-sidebar .accordion input:checked ~ .accordion-header {
-  color: #505c6e;
+  color: white;
 }
 .docs-sidebar .accordion .menu .menu-item {
   font-size: .7rem;
@@ -65,7 +65,7 @@
 }
 .docs-sidebar .accordion .menu .menu-item > a {
   background: transparent;
-  color: #66758c;
+  color: #b3b3b3;
   display: inline-block;
 }
 
@@ -108,7 +108,7 @@
   }
   .docs-content .s-title::before,
   .docs-content .s-subtitle::before {
-    background: #fff;
+    background: #1e1e1e;
     bottom: 0;
     content: "";
     display: block;
@@ -133,7 +133,7 @@
 }
 .docs-content .docs-demo .card {
   border: 0;
-  box-shadow: 0 .25rem 1rem rgba(48, 55, 66, .15);
+  box-shadow: 0 .25rem 1rem rgba(255, 255, 255, .15);
   height: 100%;
 }
 .docs-content .column {
@@ -144,7 +144,7 @@
   padding: .4rem;
 }
 .docs-content .docs-block.bg-gray {
-  background: #eef0f3;
+  background: #050505;
 }
 .docs-content .docs-shape {
   height: 4.8rem;
@@ -173,10 +173,10 @@
   opacity: .75;
 }
 .docs-content .code .hljs-tag {
-  color: #505c6e;
+  color: white;
 }
 .docs-content .code .hljs-comment {
-  color: #bcc3ce;
+  color: white;
 }
 .docs-content .code .hljs-title,
 .docs-content .code .hljs-class,
@@ -193,7 +193,7 @@
 }
 .docs-content .code .hljs-value,
 .docs-content .code .hljs-hexcolor {
-  color: #505c6e;
+  color: white;
 }
 .docs-content .c-select-all {
   -webkit-user-select: all;
@@ -217,7 +217,7 @@
   align-items: center;
   background: #5755d9;
   border-radius: .1rem;
-  color: #fff;
+  color: #1e1e1e;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -284,15 +284,15 @@
 }
 
 .docs-footer {
-  color: #bcc3ce;
+  color: white;
   padding: .5rem;
 }
 .docs-footer a {
-  color: #66758c;
+  color: #b3b3b3;
 }
 
 .docs-ad {
-  background: #f7f8f9;
+  background: #0d0d0d;
   border-radius: .1rem;
   display: block;
   margin: 2rem 0;
@@ -307,12 +307,12 @@
   display: block;
 }
 .docs-ad .carbon-wrap .carbon-text {
-  color: #66758c;
+  color: #b3b3b3;
   display: block;
   font-size: .7rem;
 }
 .docs-ad .carbon-poweredby {
-  color: #bcc3ce;
+  color: white;
   font-size: .7rem;
 }
 
@@ -351,13 +351,13 @@
 }
 
 .section-footer {
-  color: #bcc3ce;
+  color: white;
   padding: 1.8rem .75rem 1rem;
   position: relative;
   z-index: 200;
 }
 .section-footer a {
-  color: #66758c;
+  color: #b3b3b3;
 }
 
 .grid-hero {
@@ -365,13 +365,13 @@
   padding-top: 6rem;
 }
 .grid-hero h1 {
-  color: #3b4351;
+  color: white;
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
 .grid-hero h2 {
-  color: #455060;
+  color: white;
   font-size: .9rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -385,7 +385,7 @@
 .grid-hero .card {
   background: none;
   border: 0;
-  color: #5b687d;
+  color: white;
   padding: .5rem;
 }
 .grid-hero .card .card-title {
@@ -419,7 +419,7 @@
   .docs-navbar {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    background: rgba(247, 248, 249, .65);
+    background: rgba(13, 13, 13, .65);
     left: 0;
   }
 
@@ -665,7 +665,7 @@
   background: transparent;
   border: none;
   border-radius: 4px;
-  box-shadow: 0 .05rem .2rem rgba(48, 55, 66, .3);
+  box-shadow: 0 .05rem .2rem rgba(255, 255, 255, .3);
   height: auto;
   margin: 6px 0 0;
   max-width: 600px;
@@ -703,7 +703,7 @@
 }
 .algolia-autocomplete .algolia-docsearch-suggestion {
   background: #fff;
-  color: #303742;
+  color: #fff;
   display: block;
   overflow: hidden;
   padding: 0 8px;
@@ -736,7 +736,7 @@
   width: 70%;
 }
 .algolia-autocomplete .algolia-docsearch-suggestion--content:before {
-  background: #f7f8f9;
+  background: white;
   content: "";
   display: block;
   height: 100%;
@@ -746,8 +746,8 @@
   width: 1px;
 }
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
-  border-bottom: 1px solid #f7f8f9;
-  color: #303742;
+  border-bottom: 1px solid white;
+  color: #fff;
   display: none;
   font-size: 1em;
   margin-top: 8px;
@@ -760,7 +760,7 @@
   width: 100%;
 }
 .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
-  color: #bcc3ce;
+  color: white;
   float: left;
   font-size: .9em;
   padding: 5.33333px 10.66667px;
@@ -770,7 +770,7 @@
   word-wrap: break-word;
 }
 .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column:before {
-  background: #f7f8f9;
+  background: white;
   content: "";
   display: block;
   height: 100%;
@@ -783,12 +783,12 @@
   display: none;
 }
 .algolia-autocomplete .algolia-docsearch-suggestion--title {
-  color: #303742;
+  color: #fff;
   font-size: .9em;
   font-weight: 700;
 }
 .algolia-autocomplete .algolia-docsearch-suggestion--text {
-  color: #66758c;
+  color: #b3b3b3;
   display: block;
   font-size: .85em;
   line-height: 1.2em;
